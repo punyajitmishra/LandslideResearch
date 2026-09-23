@@ -1,0 +1,13 @@
+numpy
+pandas
+geopandas
+rasterio
+rasterstats
+shapely
+fiona
+scikit-learn
+xgboost
+matplotlib
+seaborn
+jupyter
+whitebox
