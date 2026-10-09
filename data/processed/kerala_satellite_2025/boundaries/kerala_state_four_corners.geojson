@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kerala statewide search rectangle",
+        "description": "Four-corner bounding rectangle with a buffer. Includes neighboring areas and sea; clip downloaded imagery to the actual state boundary for analysis.",
+        "extent_source": "https://ecostat.kerala.gov.in/publication-detail/kerala-tourism-statistics-2017"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.75,
+              8.15
+            ],
+            [
+              77.85,
+              8.15
+            ],
+            [
+              77.85,
+              12.9
+            ],
+            [
+              74.75,
+              12.9
+            ],
+            [
+              74.75,
+              8.15
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
