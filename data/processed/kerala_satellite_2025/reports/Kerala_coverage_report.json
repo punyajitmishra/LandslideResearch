@@ -1,0 +1,9 @@
+{
+  "reference_boundary": "Kerala_state_reference.geojson",
+  "reference_source": "geoBoundaries gbOpen IND ADM1; DataMeet/ECI; 2011; CC BY 2.5 India",
+  "kerala_grid_pixels": 43116887,
+  "valid_ndvi_pixels_in_kerala": 42991894,
+  "valid_ndvi_percent_of_kerala": 99.71010662249341,
+  "missing_ndvi_percent_of_kerala": 0.2898933775065904,
+  "interpretation": "NoData includes missing observations and quality/reflectance screening; a rectangle extent is not complete valid coverage."
+}

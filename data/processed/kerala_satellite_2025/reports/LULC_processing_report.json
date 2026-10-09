@@ -1,0 +1,31 @@
+{
+  "source_url": "https://lulctimeseries.blob.core.windows.net/lulctimeseriesv003/lc2025/43P_20250101-20251231.tif",
+  "year": 2025,
+  "license": "CC BY 4.0",
+  "source_resolution_m": 10,
+  "output_resolution_m": 30,
+  "resampling": "mode",
+  "nodata": 0,
+  "class_pixel_counts": {
+    "0": 72126290,
+    "1": 10324160,
+    "2": 49182497,
+    "4": 136591,
+    "5": 33400162,
+    "7": 22584120,
+    "8": 17739,
+    "11": 12258374,
+    "10": 287
+  },
+  "classes": {
+    "1": "Water",
+    "2": "Trees",
+    "4": "Flooded vegetation",
+    "5": "Crops",
+    "7": "Built area",
+    "8": "Bare ground",
+    "9": "Snow/ice",
+    "10": "Clouds",
+    "11": "Rangeland"
+  }
+}

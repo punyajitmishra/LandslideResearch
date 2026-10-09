@@ -1,0 +1,141 @@
+{
+  "layers": [
+    {
+      "file": "LST_Celsius_Kerala_rectangle_2025_February.tif",
+      "size_bytes": 219446540,
+      "type": "Float32",
+      "width": 11388,
+      "height": 17565,
+      "geotransform": [
+        472440.0,
+        30.0,
+        0.0,
+        1427820.0,
+        0.0,
+        -30.0
+      ],
+      "crs": "EPSG:32643",
+      "pixel_size_m": 30,
+      "compression": "DEFLATE",
+      "nodata": -9999.0,
+      "minimum": 14.597685813903809,
+      "maximum": 84.4620132446289,
+      "valid_grid_percent": 48.93095953201471,
+      "usable_percent_of_kerala_reference": 96.5077302542737,
+      "usable_state_pixels": 41611129,
+      "state_pixels": 43116887,
+      "state_lst_pixels_above_60C": 7188
+    },
+    {
+      "file": "LST_uncertainty_K_Kerala_rectangle_2025_February.tif",
+      "size_bytes": 115831019,
+      "type": "Float32",
+      "width": 11388,
+      "height": 17565,
+      "geotransform": [
+        472440.0,
+        30.0,
+        0.0,
+        1427820.0,
+        0.0,
+        -30.0
+      ],
+      "crs": "EPSG:32643",
+      "pixel_size_m": 30,
+      "compression": "DEFLATE",
+      "nodata": -9999.0,
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "valid_grid_percent": 48.93095953201471,
+      "usable_percent_of_kerala_reference": 96.5077302542737,
+      "usable_state_pixels": 41611129,
+      "state_pixels": 43116887,
+      "state_lst_pixels_above_60C": 0
+    },
+    {
+      "file": "LULC_Kerala_rectangle_2025.tif",
+      "size_bytes": 6937809,
+      "type": "Byte",
+      "width": 11388,
+      "height": 17565,
+      "geotransform": [
+        472440.0,
+        30.0,
+        0.0,
+        1427820.0,
+        0.0,
+        -30.0
+      ],
+      "crs": "EPSG:32643",
+      "pixel_size_m": 30,
+      "compression": "DEFLATE",
+      "nodata": 0.0,
+      "minimum": 1.0,
+      "maximum": 11.0,
+      "valid_grid_percent": 63.94215983964823,
+      "usable_percent_of_kerala_reference": 99.99996521084651,
+      "usable_state_pixels": 43116872,
+      "state_pixels": 43116887,
+      "state_lst_pixels_above_60C": 0
+    },
+    {
+      "file": "NDVI_Kerala_rectangle_2025_February.tif",
+      "size_bytes": 371060134,
+      "type": "Float32",
+      "width": 11388,
+      "height": 17565,
+      "geotransform": [
+        472440.0,
+        30.0,
+        0.0,
+        1427820.0,
+        0.0,
+        -30.0
+      ],
+      "crs": "EPSG:32643",
+      "pixel_size_m": 30,
+      "compression": "DEFLATE",
+      "nodata": -9999.0,
+      "minimum": -0.9996660947799683,
+      "maximum": 0.9997787475585938,
+      "valid_grid_percent": 56.28474487504938,
+      "usable_percent_of_kerala_reference": 99.71010662249341,
+      "usable_state_pixels": 42991894,
+      "state_pixels": 43116887,
+      "state_lst_pixels_above_60C": 0
+    },
+    {
+      "file": "NDWI_Kerala_rectangle_2025_February.tif",
+      "size_bytes": 382193296,
+      "type": "Float32",
+      "width": 11388,
+      "height": 17565,
+      "geotransform": [
+        472440.0,
+        30.0,
+        0.0,
+        1427820.0,
+        0.0,
+        -30.0
+      ],
+      "crs": "EPSG:32643",
+      "pixel_size_m": 30,
+      "compression": "DEFLATE",
+      "nodata": -9999.0,
+      "minimum": -0.9998970627784729,
+      "maximum": 0.9997923374176025,
+      "valid_grid_percent": 59.02082845282078,
+      "usable_percent_of_kerala_reference": 99.71000457430983,
+      "usable_state_pixels": 42991850,
+      "state_pixels": 43116887,
+      "state_lst_pixels_above_60C": 0
+    }
+  ],
+  "notes": [
+    "Kerala reference is a 2011 geoBoundaries/DataMeet/ECI state outline used for coverage checking only.",
+    "LULC cloud class 10 is excluded from usable counts; other classes remain categorical.",
+    "Temperature is the USGS atmospheric/emissivity-corrected surface product, not air temperature.",
+    "Uncertainty layer is retained; no arbitrary temperature or uncertainty threshold imposed.",
+    "Layers retain NoData; equal grids do not imply equal valid-pixel masks."
+  ]
+}
